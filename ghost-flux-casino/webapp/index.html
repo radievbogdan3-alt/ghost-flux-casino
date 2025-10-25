@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost FluX Casino</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">👻 Ghost FluX</h1>
+            <div class="balance" id="balance">Баланс: 0 ⭐</div>
+        </header>
+
+        <main class="main">
+            <div class="roulette-container">
+                <div class="roulette-wheel" id="rouletteWheel">
+                    <div class="roulette-item">🧸</div>
+                    <div class="roulette-item">💖</div>
+                    <div class="roulette-item">🚀</div>
+                    <div class="roulette-item">🎂</div>
+                    <div class="roulette-item">🏆</div>
+                    <div class="roulette-item">💍</div>
+                </div>
+                <div class="spin-button" id="spinButton">🎰 Крутить за 50 ⭐</div>
+            </div>
+
+            <div class="inventory">
+                <h3>🎒 Ваши призы</h3>
+                <div class="inventory-items" id="inventoryItems"></div>
+            </div>
+
+            <div class="actions">
+                <button class="btn" id="withdrawBtn">💸 Вывести призы</button>
+                <button class="btn" id="depositBtn">💰 Пополнить баланс</button>
+            </div>
+        </main>
+    </div>
+
+    <div class="modal" id="resultModal">
+        <div class="modal-content">
+            <h2 id="resultTitle">Поздравляем! 🎉</h2>
+            <div id="resultPrize"></div>
+            <button class="btn" id="closeModal">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

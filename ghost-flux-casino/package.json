@@ -1,0 +1,15 @@
+{
+    "name": "ghost-flux-casino",
+    "version": "1.0.0",
+    "description": "Telegram Casino Bot with Mini App",
+    "main": "bot/main.py",
+    "scripts": {
+        "start": "python bot/main.py",
+        "dev": "python bot/main.py"
+    },
+    "dependencies": {
+        "python-telegram-bot": "^20.7"
+    },
+    "author": "Ghost FluX",
+    "license": "MIT"
+}
