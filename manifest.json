@@ -1,0 +1,16 @@
+{
+    "name": "Ghost FluX Casino",
+    "short_name": "GhostFluX",
+    "description": "Казино с рулеткой и призами",
+    "start_url": "/webapp/index.html",
+    "display": "standalone",
+    "theme_color": "#667eea",
+    "background_color": "#764ba2",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
