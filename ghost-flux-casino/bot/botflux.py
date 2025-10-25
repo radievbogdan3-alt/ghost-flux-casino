@@ -33,7 +33,7 @@ class CasinoBot:
         
         # Клавиатура с Web App
         keyboard = [
-            [InlineKeyboardButton("🎰 Открыть казино", web_app=WebAppInfo(url=f"https://yourdomain.com/webapp/index.html?user_id={user_id}"))],
+            [InlineKeyboardButton("🎰 Открыть казино", web_app=WebAppInfo(url=f"{config.BOT_WEBAPP_URL}/index.html?user_id={user_id}"))],  # ← ЗАПЯТАЯ ДОБАВЛЕНА
             [InlineKeyboardButton("💰 Мой баланс", callback_data="balance"),
              InlineKeyboardButton("🎒 Инвентарь", callback_data="inventory")],
             [InlineKeyboardButton("📢 Наш канал", url=f"https://t.me/{config.CHANNEL[1:]}")]
